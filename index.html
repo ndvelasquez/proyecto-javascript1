@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link id="theme" rel="stylesheet" href="./css/green.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!-- Jquery ui -->
+  <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+  <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.theme.min.css">
+  <script type="text/javascript" src="./js/jquery-ui/jquery-ui.min.js" charset="utf-8"></script>
+  <!-- Moment Js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js" charset="utf-8"></script>
+  <!-- Script principal -->
+    <script type="text/javascript" src="./js/main.js" charset="utf-8"></script>
+    <title>Proyecto en JS</title>
+  </head>
+  <body>
+    <!-- Cambiar temas -->
+    <div id="theme-selector">
+      <div id="to-green"></div>
+      <div id="to-red"></div>
+      <div id="to-blue"></div>
+    </div>
+    <section id="global">
+      <!-- Encabezado -->
+      <header>
+        <div id="logo">
+          <h1>Projecto JS</h1>
+        </div>
+        <div class="clearfix"></div>
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html" title="Inicio">INICIO</a></li>
+          <li><a href="about.html" title="Sobre Mi">SOBRE MI</a></li>
+          <li><a href="contact.html" title="Contacto">CONTACTO</a></li>
+          <li><a href="clock.html" title="Reloj">RELOJ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Slider -->
+    <div class="slider">
+      <div><img src="./img/rojo.jpg" title="el cielo" alt="cielo"></div>
+      <div><img src="./img/hojas.jpg" title="el cielo" alt="cielo"></div>
+      <div><img src="./img/cielo.jpg" title="el cielo" alt="cielo"></div>
+    </div>
+    <!-- Articulos -->
+      <section id="content">
+        <div id="posts">
+          <!-- Posts cargan desde JS -->
+        </div>
+        <!-- Sidebar -->
+        <aside id="sidebar">
+          <div id="about">
+            <h4><span>¿Quién soy?</span></h4>
+            <img src="./img/caracol.jpg" alt="caracol">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <!-- Formulario de Login -->
+          <div id="login">
+            <h4><span>Ingresar</span></h4>
+            <form id="form" class="" action="index.html" method="post">
+              <label for="username">Usuario</label>
+              <input type="text" name="username" id="username" value="">
+              <label for="password">Contraseña</label>
+              <input type="password" name="password" id="password" value="">
+              <input type="submit" name="" value="Ingresar">
+            </form>
+          </div>
+          <!-- Fin del formulario -->
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+    </section>
+    <footer>
+      Master en JavaScript con Udemy &copy;
+    </footer>
+    <a id="button"></a>
+  </body>
+</html>
